@@ -1,0 +1,14 @@
+
+<view>
+    
+    
+    <to-global-api/>
+    
+    
+    
+    <image style="width: 100%"
+           mode="widthFix"
+           src="https://img.yzcdn.cn/public_files/2019/08/28/62310af1d99af0650a0fd707e18ea8b9.png"></image>
+    
+    
+</view>

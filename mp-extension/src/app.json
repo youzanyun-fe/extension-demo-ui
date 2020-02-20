@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/hello-world/index",
+    "pages/goods/cart/index",
+    "pages/home/dashboard/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packages/demo-fe",
+      "name": "demo-fe",
+      "pages": [
+        "global-api/index"
+      ]
+    },
+    {
+      "root": "packages/order",
+      "name": "packages/order",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "packages/goods",
+      "name": "packages/goods",
+      "pages": [
+        "detail/index"
+      ]
+    }
+  ],
+  "usingComponents": {},
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": " ",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f9f9f9",
+    "onReachBottomDistance": 400
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "debug": false
+}

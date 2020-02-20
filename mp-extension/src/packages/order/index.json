@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "下单页",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "data-demo": "./custom-components/data-demo/index",
+    "event-demo": "./custom-components/event-demo/index",
+    "process-demo": "./custom-components/process-demo/index"
+  }
+}

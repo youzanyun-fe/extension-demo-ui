@@ -1,0 +1,9 @@
+button {
+    display: block;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 20rpx 0;
+    background: #f8f8f8;
+}

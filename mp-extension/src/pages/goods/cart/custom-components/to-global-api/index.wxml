@@ -1,0 +1,2 @@
+<!-- 跳转到globalAPi页面 -->
+<navigator url="/packages/demo-fe/global-api/index" class="navigator">跳转到globalAPI页面</navigator>

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品页组件开发",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "data-demo": "./custom-components/data-demo/index",
+    "event-demo": "./custom-components/event-demo/index",
+    "process-demo": "./custom-components/process-demo/index",
+    "update-component-demo": "./custom-components/update-component-demo/index"
+  }
+}

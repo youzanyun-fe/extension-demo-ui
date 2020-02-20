@@ -1,0 +1,9 @@
+<view class="wrapper">
+  <view style="color:#f00">页面数据(yunSdk.page[key])</view>
+  <view>
+    <van-button type="default" bind:tap="getPageData">点击获取sku信息</van-button>
+  </view>
+  <view class="">
+    <textarea>数据yunSdk.page.sku:{{skuData}}</textarea>
+  </view>
+</view>

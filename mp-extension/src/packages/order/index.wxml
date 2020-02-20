@@ -1,0 +1,46 @@
+
+<view>
+    
+      
+        <data-demo/>
+      
+    
+      
+        <event-demo/>
+      
+    
+      
+        <process-demo/>
+      
+    
+      
+        <image style="width: 100%"
+                      mode="widthFix"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/60f6dbc66ea8d0f1b28e01d5e4600799.png"></image>
+      
+    
+      
+        <image style="width: 100%"
+                      mode="widthFix"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/a44e472fed6cae19b9cb64e69c6628d0.png"></image>
+      
+    
+      
+        <image style="width: 100%"
+                      mode="widthFix"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/e4099d8a83ea3b0dba1cbc412549f0b0.png"></image>
+      
+    
+      
+        <image style="width: 100%"
+                      mode="widthFix"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/0a0d0729e79cbd5e870a716a00871b13.png"></image>
+      
+    
+      
+        <image style="width: 100%"
+                      mode="widthFix"
+                      src="https://img.yzcdn.cn/public_files/2019/07/19/5fd4e5b2d511f5f90157fa4fce8ca777.png"></image>
+      
+    
+</view>

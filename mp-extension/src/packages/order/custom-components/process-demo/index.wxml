@@ -1,0 +1,12 @@
+<view class="wrapper">
+    <van-submit-bar loading="{{ loading }}" price="{{ realPay }}" button-text="提交订单" bind:submit="onSubmit" />
+    <!-- action-sheet -->
+    <view>
+        <van-action-sheet show="{{ isShowPayWays }}" actions="{{ actions }}" bind:close="onCloseActionSheet" bind:select="onSelectActionSheet" />
+    </view>
+    <view >
+        <view style="color:#f00">支付结果</view>
+        <textarea>是否成功支付:{{isSuccessPay}}</textarea>
+        <textarea>支付方式数据结构:{{payWays}}</textarea>
+    </view>
+</view>

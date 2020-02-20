@@ -1,0 +1,154 @@
+<view>
+    
+    
+    <data-demo />
+    
+    
+    
+    <event-demo />
+    
+    
+    
+    <process-demo />
+    
+    
+    
+    <update-component-demo />
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/27/70797b68386cc8e43473387d704af0f6.png"></image>
+        
+    
+    
+    
+        
+    <text>activity-banner</text>
+        
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/27/2d5cbf71cf2682a3b7f10aa0057f498d.png"></image>
+        
+    
+    
+    
+    
+        
+    <text>推荐网点</text>
+        
+    
+    
+    
+        
+    <text>优惠信息、促销</text>
+        
+    
+    
+    
+        
+    <text>优惠套餐推荐</text>
+        
+    
+    
+    
+        
+    <text>打包一口价</text>
+        
+    
+    
+    
+        
+    <text>加价购</text>
+        
+    
+    
+    
+        
+    <text>activity</text>
+        
+    
+    
+    
+        
+    <text>商品购买信息</text>
+        
+    
+    
+    
+        
+    <text>buy-info-extra</text>
+        
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/27/8003634a256eb74ca2eeaf867a8fa66d.png"></image>
+        
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/27/09889176c60bc47c15a991628f56965c.png"></image>
+        
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/29/3a92d69940657b4d428056b71a07290d.png"></image>
+        
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/27/7dbaca4522072959dd4f8226eb4c72e2.png"></image>
+        
+    
+    
+    
+        
+    <text>分销员按钮</text>
+        
+    
+    
+    
+        
+    <text>分销员按钮</text>
+        
+    
+    
+    
+        
+    <text>悬浮窗</text>
+        
+    
+    
+    
+        
+    <text>活动自定义模块</text>
+        
+    
+    
+    
+        
+    <image style="width: 100%"
+               mode="widthFix"
+               src="https://img.yzcdn.cn/public_files/2019/07/29/8aaca135c4f69bda7984064c65582ee2.png"></image>
+        
+    
+    
+</view>

@@ -1,0 +1,2 @@
+<button bind:tap="isShowGoodsInfo">点击隐藏/显示标题栏</button>
+<button bind:tap="isShowGoodsBottom">点击隐藏/显示提交栏</button>

@@ -1,0 +1,318 @@
+{
+  "tabBarSetting": {
+    "cancel": false,
+    "content": {
+      "color": "#606060",
+      "selectedColor": "#FF4444",
+      "backgroundColor": "#FCFCFC",
+      "borderStyle": "white",
+      "list": [
+        {
+          "pagePath": "pages/home/dashboard/index",
+          "text": "首页",
+          "iconPath": "icons/home.png",
+          "selectedIconPath": "icons/home-selected.png"
+        },
+        {
+          "pagePath": "pages/goods/cart/index",
+          "text": "购物车",
+          "iconPath": "icons/cart.png",
+          "selectedIconPath": "icons/cart-selected.png"
+        },
+        {
+          "pagePath": "pages/usercenter/dashboard/index",
+          "text": "我的",
+          "iconPath": "icons/usercenter.png",
+          "selectedIconPath": "icons/usercenter-selected.png"
+        }
+      ]
+    }
+  },
+  "app": {
+    "addPages": [
+      {
+        "package": "packages/demo-fe",
+        "path": "global-api/index"
+      }
+    ],
+    "setPreloadRule": {
+      "pages/home/dashboard/index": {
+        "network": "all",
+        "packages": [
+          "packages/goods"
+        ]
+      },
+      "packages/goods/detail/index": {
+        "network": "all",
+        "packages": [
+          "packages/order"
+        ]
+      }
+    },
+    "removePackages": [
+      "packages/paidcontent",
+      "packages/edu",
+      "packages/tangshi"
+    ]
+  },
+  "pageCustom": {
+    "pages/goods/cart/index": {
+      "components": [
+        {
+          "name": "to-global-api",
+          "label": "to-global-api",
+          "type": "custom"
+        },
+        {
+          "label": "购物车",
+          "name": "cart-all",
+          "height": "200",
+          "width": "750",
+          "type": "base",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/08/28/62310af1d99af0650a0fd707e18ea8b9.png"
+        }
+      ],
+      "customType": "component-replace",
+      "profile": {}
+    },
+    "packages/order/index": {
+      "components": [
+        {
+          "name": "data-demo",
+          "label": "data-demo",
+          "type": "custom"
+        },
+        {
+          "name": "event-demo",
+          "label": "event-demo",
+          "type": "custom"
+        },
+        {
+          "name": "process-demo",
+          "label": "process-demo",
+          "type": "custom"
+        },
+        {
+          "label": "地址栏",
+          "name": "address",
+          "height": "200",
+          "width": "750",
+          "type": "base",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/19/60f6dbc66ea8d0f1b28e01d5e4600799.png"
+        },
+        {
+          "label": "商品列表",
+          "name": "goods",
+          "height": "50",
+          "width": "750",
+          "type": "base",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/19/a44e472fed6cae19b9cb64e69c6628d0.png"
+        },
+        {
+          "label": "营销区块",
+          "name": "ump",
+          "height": "50",
+          "width": "750",
+          "type": "base",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/19/e4099d8a83ea3b0dba1cbc412549f0b0.png"
+        },
+        {
+          "label": "服务区块",
+          "name": "service",
+          "height": "50",
+          "width": "750",
+          "type": "base",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/19/0a0d0729e79cbd5e870a716a00871b13.png"
+        },
+        {
+          "label": "计价版",
+          "name": "price",
+          "height": "50",
+          "width": "750",
+          "type": "base",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/19/5fd4e5b2d511f5f90157fa4fce8ca777.png"
+        }
+      ],
+      "customType": "component-replace",
+      "profile": {
+        "navigationBarTitleText": "下单页",
+        "navigationStyle": "default"
+      }
+    },
+    "packages/goods/detail/index": {
+      "components": [
+        {
+          "name": "data-demo",
+          "label": "data-demo",
+          "type": "custom",
+          "needAllData": "no"
+        },
+        {
+          "name": "event-demo",
+          "label": "event-demo",
+          "type": "custom",
+          "needAllData": "no"
+        },
+        {
+          "name": "process-demo",
+          "label": "process-demo",
+          "type": "custom",
+          "needAllData": "no"
+        },
+        {
+          "name": "update-component-demo",
+          "label": "update-component-demo",
+          "type": "custom",
+          "needAllData": "no"
+        },
+        {
+          "label": "商品主图",
+          "name": "goods-image",
+          "needAllData": "no",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/27/70797b68386cc8e43473387d704af0f6.png",
+          "type": "base"
+        },
+        {
+          "label": "activity-banner",
+          "name": "activity-banner",
+          "needAllData": "no",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "商品基础信息",
+          "name": "goods-info",
+          "needAllData": "no",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/27/2d5cbf71cf2682a3b7f10aa0057f498d.png",
+          "type": "base"
+        },
+        {
+          "label": "推荐网点",
+          "name": "recommend-store",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "优惠信息、促销",
+          "name": "order-preference",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "优惠套餐推荐",
+          "name": "discount-packages",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "打包一口价",
+          "name": "goods-bundle",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "加价购",
+          "name": "plus-buy",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "activity",
+          "name": "activity",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "商品购买信息",
+          "name": "buy-info",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "buy-info-extra",
+          "name": "buy-info-extra",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "店铺信息",
+          "name": "shop-info",
+          "needAllData": "yes",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/27/8003634a256eb74ca2eeaf867a8fa66d.png",
+          "type": "base"
+        },
+        {
+          "label": "评价",
+          "name": "goods-review",
+          "needAllData": "yes",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/27/09889176c60bc47c15a991628f56965c.png",
+          "type": "base"
+        },
+        {
+          "label": "商品详情",
+          "name": "goods-detail",
+          "needAllData": "yes",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/29/3a92d69940657b4d428056b71a07290d.png",
+          "type": "base"
+        },
+        {
+          "label": "底部按钮",
+          "needAllData": "yes",
+          "name": "goods-bottom",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/27/7dbaca4522072959dd4f8226eb4c72e2.png",
+          "type": "base"
+        },
+        {
+          "label": "分销员按钮",
+          "name": "share-goods",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "分销员按钮",
+          "name": "salesman-icon",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "悬浮窗",
+          "name": "floating-nav",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "活动自定义模块",
+          "name": "act-custom-block",
+          "needAllData": "yes",
+          "imgUrl": "",
+          "type": "base"
+        },
+        {
+          "label": "sku",
+          "needAllData": "yes",
+          "name": "goods-sku",
+          "imgUrl": "https://img.yzcdn.cn/public_files/2019/07/29/8aaca135c4f69bda7984064c65582ee2.png",
+          "type": "base"
+        }
+      ],
+      "customType": "component-replace",
+      "profile": {}
+    },
+    "pages/home/dashboard/index": {
+      "components": [],
+      "customType": "component-replace"
+    }
+  },
+  "version": "0.0.1"
+}

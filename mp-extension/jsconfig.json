@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "./",
+    "paths": {
+      "pages/*": ["./src/pages/*"],
+      "utils/*": ["./src/utils/*"],
+      "themes/*": ["./src/themes/*"],
+      "components/*": ["./src/components/*"],
+      "bower_components/*": ["./src/bower_components/*"],
+      "constants/*": ["./src/constants/*"],
+      "common-api/*": ["./src/common-api/*"],
+      "theme-builder/*": ["./theme-builder/*"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

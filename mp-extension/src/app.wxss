@@ -1,0 +1,11 @@
+
+.anta-hi {
+  font-size: 12px;
+}
+
+textarea{
+  width:750rpx;
+  height: auto;
+  overflow: auto;
+  word-wrap:break-word
+}

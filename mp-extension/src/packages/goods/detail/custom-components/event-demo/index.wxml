@@ -1,0 +1,7 @@
+<view class="wrapper">
+    <view style="color:#f00">事件</view>
+    <view>
+        <textarea>保存购物车数据之前触发事件:{{beforeCartSubmitData}}</textarea>
+        <textarea>预下单之后触发:{{afterBuyData}}</textarea>
+    </view>
+</view>

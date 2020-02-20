@@ -1,0 +1,32 @@
+<view class="wrapper">
+  <view style="color:#f00">数据(yunSdk.app[key])</view>
+  <view>
+    <van-button type="default" bind:tap="getGlobalData">点击获取全局数据</van-button>
+  </view>
+  <view class="">
+    <textarea>数据yunSdk.app.shop:{{yunSdkAppShop}}</textarea>
+    <textarea>数据yunSdk.app.user:{{yunSdkAppUser}}</textarea>
+  </view>
+</view>
+
+<view class="wrapper">
+  <view style="color:#f00">页面导航(yunSdk.navigate)跳转商品详情页</view>
+  <view>
+    <van-button type="default" bind:tap="navigateGoodsDetail" data-type="navigateTo">navigateTo</van-button>
+    <van-button type="default" bind:tap="navigateGoodsDetail" data-type="redirectTo">redirectTo</van-button>
+    <van-button type="default" bind:tap="navigateGoodsDetail" data-type="reLaunch">reLaunch</van-button>
+    <van-button type="default" bind:tap="navigateGoodsDetail" data-type="navigateBack">navigateBack</van-button>
+  </view>
+</view>
+
+<view class="wrapper">
+  <view style="color:#f00">接口请求</view>
+  <view>
+    <van-button type="default" bind:tap="request">请求网络数据</van-button>
+  </view>
+  <view class="">
+    <textarea>请求成功数据:{{requestSuccessData}}</textarea>
+    <textarea>请求失败数据:{{requestErrData}}</textarea>
+  </view>
+</view>
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "购物车",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "to-global-api": "./custom-components/to-global-api/index"
+  }
+}

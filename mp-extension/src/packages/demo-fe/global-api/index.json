@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "全局API",
+  "navigationBarBackgroundColor": "#FFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-button":"vant-weapp/dist/button/index"
+  }
+}

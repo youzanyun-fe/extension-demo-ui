@@ -1,0 +1,9 @@
+<view class="wrapper">
+    <view style="color:#f00">事件</view>
+    <view>
+        <textarea>创建订单前触发事件:{{beforeCreateOrderAsyncData}}</textarea>
+        <textarea>创建订单后触发:{{afterCreateOrderData}}</textarea>
+        <textarea>点击支付方式时触发:{{onPayItemClickAsyncData}}</textarea>
+        <textarea>支付后，跳转结果页前触发(已阻止跳转):{{afterOrderPaidData}}</textarea>
+    </view>
+</view>
